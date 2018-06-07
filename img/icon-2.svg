@@ -1,31 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="61" viewBox="0 0 75 61">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?xpacket end="w"?></metadata>
-<image id="icon-2" width="75" height="61" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAA9CAQAAABPPFy9AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBgcBDCuEBAFLAAACTElEQVRo3u2Zz0tVQRTHv8cfBSL1RGyhUFTL8gcEtpFQJBdu3LgTgqD/IYn+gYJw5bKd7oXaWfIMBG2hYipIaqKSu3pPfBL48tuim7yX756rd2aci9zv5g0znDOfOXNm7sw84QDeohFmOsQqPmMWM7Jp6OmfuEubWuNrttnAcqE5DrIqeVgkOc+H8amEDEqP5YPB4B5h+lRlThoAgEu4Vlb/DcMyp/urOSndYMYg6E2Vhhz83sT1svpbmGa3zJ4tWvaVlwwAMPcfFgCsoE2Ow03NEjO+7qFba/YVLV0vfUVL11AysZqTifU9mVjjNeY+YqpXpsIbfUVrBVmt2Q/WLzzTNtPSj49tFfEmKOXL6o+wHP1NdHWCyLLdaFA8sAx0zEn2Gceao9aADpnlc96xkQHCK3iBQdSfamlCnWI3gk9/RxVkDrGDLT2NrYi1fKdEptNt76EbhBxhR7Hb9oQFQFtLeyQLHrBYhaiL1boHLNytsAwSgNURafs1xToHlpdJbI20XXOHJZWrmcHPUBtiH0BBWtxhhfXcpezwi+77D5vE+4rNhj8sLbM8YmnRcrgCo7CSGC22oEGxsfU+el4sNVZF14eacKwexWJLfrvHqiA2MqfsWrus9gFVzYmIq8RHPmEHr14kVC8XznjPKfILR9jPOvNedaTbfB/jGlbgGB+4xJo0uCO+sstScoLgcuQxOVz7YuMvlVSxVDqJGQM/lLyBtYpl8kIfvMHbUjKfdFOsFCvFSoRSrEuGtWfg54czQj5lIeYhcJv9dln+AL9kxpExdymlAAAAAElFTkSuQmCC"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 61">
+	<path fill="#FFFFFF" d="M5.039,58.949c0,0,0,2.051,1.868,2.051s27.02,0,27.02,0s2.001-0.184,2.001-1.984s0-11.074,0-11.074H5.039
+		V58.949z"/>
+	<path fill="#FFFFFF" d="M73.875,8.016H60.387c-0.621-2.287-2.071-3.891-3.762-3.891h-7.542v12.75h7.542
+		c1.69,0,3.141-1.604,3.762-3.891h13.488c0.575,0,1.042-1.112,1.042-2.484S74.45,8.016,73.875,8.016z"/>
+	<path fill="#FFFFFF" d="M2.103,0C0.167,0,0,2.041,0,2.041s0,12.876,0,15.812s2.903,3.002,2.903,3.002s7.072,0,9.007,0
+		s1.601,1.334,1.601,1.334s-2.469,13.01-2.735,15.211c-0.267,2.203-1.868,3.604-1.868,3.604s-2.135,1.201-3.002,1.668
+		s-0.867,2.201-0.867,2.201h30.889v-0.734c0-1.467-6.472-3.135-9.073-3.402c-2.602-0.266-2.068-2.002-2.068-2.002l1.067-7.805
+		h3.002l1.134-7.873h-3.002l0.331-2.737l8.609-0.131c5.805-0.601,10.008-4.07,10.008-4.07V4.109C41.333,0.84,33.993,0,33.993,0
+		S4.038,0,2.103,0z M36,4.938v0.031c0,0.55-0.45,1-1,1H5.031c-0.55,0-1-0.45-1-1V4.938c0-0.55,0.45-1,1-1H35
+		C35.55,3.938,36,4.388,36,4.938z"/>
 </svg>

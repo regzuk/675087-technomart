@@ -1,31 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="65" viewBox="0 0 44 65">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<image id="icon-1" width="44" height="65" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAABBCAQAAAAA544OAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBgcBCzffRMvDAAAEMklEQVRYw+2Y3WscVRjGf5Nus22S5sM0oU3atCT1IyGVkIIhTRvUoubCq9iUIkKqBHvRYv8BL4oIDYgFBaGUIPGiguYmBVv0QgRDLhSztLUl2jYSoiYxm6+twTTZ1MeLnZ2dnZ3dzOwuCOJ7tXPOc37nzHPec86eMcgQ2koHHbTwBLupMgvDzHCXG4wyakTxH+rQoCLKFBENqsMf9IhG5TVGdcSNYaRAy/iAXlvBMt8Q4ha/sAKUUM/TtPIc5TbNJ5wzIpnH2qR71lg2NKQuBVx1AXVpSBuW9p6aMmHbtGRJr6h+U8vqdcXSL6ktneygNVlTOuZ5Pp7XlDWZB90E1Zo0BSOq9IoFUKVGzJaTqk6tvmZWXlehHyyACnXdbH3NWXXKSp4iv1gAFVkJespevENhSdK89mSDBdAezUuSwtqRKDxv9nYiWyyATpiU8wAGqIhfeQwYMTpd5NXsooZtlBAANljhIdPMGnMu2m85Ciyy1/gLUJ/Z02FLUK+TuqBhjWs97VJe17iGdUEnE/muw2ZdX+wxliwhUIPe1Oem334irCGd1gFQKJawYKiG3wEIUUZDLh4DE0RoBaA2QJdZ2JojFLANrKuA9jwAU6O9gLbcKS7RZmidrZ6kKzwCtlDiSR01pDRVf/MT33Ob+0wSZsFYixUrSCVV7OcAzTzDUxSkae+SPIsaULdKvQxMperWgBZTIU7wuvoU9GuogupzLiXU41gQc+pXu/uB5AoNqF39mnMsmB4DVMnbnHFM4Spj/Mw404SZZYU1Vs2a7QQpYRdV1NDIkxxie/K08RHvGgvxfut0UQ98L2Vn/KmLqosja62XKlavvlQ0K2RUX6lXxRarCi3olSTPKnRclxTy2EFUIV3ScVUkMRo1EcvjT3nLciVeuY0WmmmggTp2UkU8/R4QZp4pJpjgNjeNVUc7g9O8T1E83f7Qa36TzCVDDL2g75x5vJwzdqd+THhUkCvOFiU0Jx5yAGf+/5ElWN2aYk0zeim9JAuPVahls9VvttL99jzMbsRFlJm/atNJ8jl5fsDq1Bea1rzGdMbn22XyWJ16ZLPtHau83LbvJtRJHmcGX03aFyJ+wJlfb1/SU6nK8+axBysT23zSqZMA+z7pzEhsusn3Fpstj6eM5oZj9zWtsHusiHpVpmL1WIvGMXlSv/MlbZez9OA0YQdHddSGLdDlFLUPsN3wAF/rMlcJU0oLr9OSy6Sm/4vlFhXGcmzELG0m/bf2iv/B/x1wfLfb60G7+RqyxS0d0z49qx82lxoay8sNzxnzhtoZYUvewW8AOuvLDi/xcdznc0mHZs5YJRzQi5rOC3RVZ53ZUa4PM3yd8BbDcv9+oDq953YZ9BAPNajM2aWgXtaAJjwjZ/WZXlWZk2Ok7aCWQzTRyG5qqSZI/NvUCg8JM8MMd7nDTeO+e/t/AFstxg47kAIlAAAAAElFTkSuQmCC"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 65">
+	<path fill="#FFFFFF" d="M37.91,30.438v10.869c0,0,0.105,2.735-2.825,2.735c-3.069,0-3.125-2.735-3.125-2.735s0-6.176,0-6.416
+		s-0.336-1.909-2.319-1.909c-2.625,0-2.67,1.877-2.67,1.877V54.08c0,0,0.029,1.863-2.464,1.863C22,55.943,22,53.96,22,53.96V40.016
+		c0,0,0-2.945-3.805-2.945c-4.054,0-3.967,3.125-3.967,3.125v3.728c0,0-0.121,2.945-4.688,2.945s-4.628-4.509-4.628-4.509V29.938
+		C3.168,28.976,0,26.671,0,26.671v29.332C0,56.003,2.988,65,22,65c19.012,0,22-8.695,22-8.695V26.671
+		C41.062,29.5,37.91,30.438,37.91,30.438z"/>
+	<path fill="#FFFFFF" d="M22,0C1.688,0,0,19.875,0,19.875v3.062C8.438,29.188,22,29,22,29s13.562,0.188,22-6.062v-3.062
+		C44,19.875,42.312,0,22,0z M22,25c-11.75,0-14.312-2.375-14.312-2.375C13.938,19.75,22,19.875,22,19.875s8.062-0.125,14.312,2.75
+		C36.312,22.625,33.75,25,22,25z M22,12.625c-9.562,0-17.688,2.938-17.688,2.938C8.875,2.625,22,3.062,22,3.062
+		s13.125-0.438,17.688,12.5C39.688,15.562,31.562,12.625,22,12.625z"/>
 </svg>
