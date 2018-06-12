@@ -26,10 +26,10 @@
             <p>
               Интернет магазин строительных материалов и инструментов для ремонта
             </p>
-            <p>
+            <div>
               <a href="tel:+78125550505" class="phone-number">+7(812)555-05-05</a>
               <p class="address">г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-            </p>
+            </div>
             <div class="customer-menu">
               <a class="main-header-personal button" href="profile.html">Равшан Джамшутович</a>
               <div class="personal-links">
@@ -73,16 +73,22 @@
           <aside class="filters">
             <h2>Фильтр</h2>
             <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
-              <label>
-                Цена:
+              <fieldset class="prices">
+                <legend class="prices-legend">Цена:</legend>
                 <div class="two-input-range">
                   <button type="button" class="two-input-range min-range">Минимальное значение цены</button>
                   <button type="button" class="two-input-range max-range">Максимальное значение цены</button>
                 </div>
-                <input type="number" name="min-price" placeholder="0">
+                <label>
+                  <span>Минимальная цена<span>
+                  <input type="number" name="min-price" placeholder="0">
+                </label>
                 <span>&#8212;</span>
-                <input type="number" name="max-price" placeholder="40000">
-              </label>
+                <label>
+                  <span>Минимальная цена<span>
+                  <input type="number" name="max-price" placeholder="40000">
+                </label>
+              </fieldset>
               <fieldset class="producers">
                 <legend class="producers-legend">Производители:</legend>
                 <ul class="producers-content">
@@ -143,13 +149,13 @@
             <p class="catalog-sorting">
               <h3>Сортировка:</h3>
               <ul class="sorting-by-type">
-                <li><a type="button sort-by-price" href="#">По цене</a></li>
-                <li><a type="button sort-by-type" href="#">По типу</a></li>
-                <li><a type="button sort-by-functionality" href="#">По функциональности</a></li>
+                <li><a type="button" class="button sort-by-price" href="#">По цене</a></li>
+                <li><a type="button" class="button sort-by-type" href="#">По типу</a></li>
+                <li><a type="button" class="button sort-by-functionality" href="#">По функциональности</a></li>
               </ul>
               <ul class="sorting-by-order">
-                <li><a type="button sort-by-ascending" href="#">По возрастанию</a></li>
-                <li><a type="button sort-by-descending" href="#">По убыванию</a></li>
+                <li><a type="button" class="button sort-by-ascending" href="#">По возрастанию</a></li>
+                <li><a type="button" class="button sort-by-descending" href="#">По убыванию</a></li>
               </ul>
             </p>
             <ul class="catalog-list">
