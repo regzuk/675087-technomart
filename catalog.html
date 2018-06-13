@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
-      <section class="top-menu">
+      <section class="main-header-top-menu">
         <div class="container">
           <a class="main-header-logo" href="index.html">Техномарт</a>
-          <form class="search" method="post" action="https://echo.htmlacademy.ru">
+          <form class="main-header-search" method="post" action="https://echo.htmlacademy.ru">
             <label>
               Поиск: <input type="text" name="search">
             </label>
@@ -24,18 +26,18 @@
       <section class="menu">
         <div class="container">
           <div class="header-menu-info">
-            <p>
+            <p class="header-description">
               Интернет магазин строительных материалов и инструментов для ремонта
             </p>
             <div>
-              <a href="tel:+78125550505" class="phone-number">+7(812)555-05-05</a>
-              <p class="address">г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+              <a href="tel:+78125550505" class="header-phone-number">+7(812)555-05-05</a>
+              <p class="header-address">г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
             <div class="customer-menu">
               <a class="main-header-personal button" href="profile.html">Равшан Джамшутович</a>
               <div class="personal-links">
                 <a class="main-header-history" href="history.html">Мои заказы</a>
-                <a class="main-header-personal" href="settings.html">Личный кабинет</a>
+                <a class="main-header-settings" href="settings.html">Личный кабинет</a>
               </div>
             </div>
           </div>
@@ -73,7 +75,7 @@
         <div class="container">
           <aside class="filters">
             <h2>Фильтр</h2>
-            <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
+            <form class="catalog-filter" method="post" action="https://echo.htmlacademy.ru">
               <fieldset class="prices">
                 <legend class="prices-legend">Цена:</legend>
                 <div class="two-input-range">
@@ -81,12 +83,12 @@
                   <button type="button" class="two-input-range max-range">Максимальное значение цены</button>
                 </div>
                 <label>
-                  <span>Минимальная цена<span>
+                  <span class="visually-hidden">Минимальная цена</span>
                   <input type="number" name="min-price" placeholder="0">
                 </label>
                 <span>&#8212;</span>
                 <label>
-                  <span>Минимальная цена<span>
+                  <span class="visually-hidden">Минимальная цена</span>
                   <input type="number" name="max-price" placeholder="40000">
                 </label>
               </fieldset>
@@ -142,23 +144,23 @@
                   </li>
                 </ul>
               </fieldset>
-              <button type="submit" class="filter-button">Показать</button>
+              <button type="submit" class="filter-button button">Показать</button>
             </form>
           </aside>
           <div class="catalog-content">
             <h2 class="visually-hidden">Список перфораторов</h2>
-            <p class="catalog-sorting">
+            <div class="catalog-sorting">
               <h3>Сортировка:</h3>
               <ul class="sorting-by-type">
-                <li><a class="button sort-by-price" href="#">По цене</a></li>
+                <li><a class="button sort-by-price selected-sorting" href="#">По цене</a></li>
                 <li><a class="button sort-by-type" href="#">По типу</a></li>
                 <li><a class="button sort-by-functionality" href="#">По функциональности</a></li>
               </ul>
               <ul class="sorting-by-order">
-                <li><a class="button sort-by-ascending" href="#">По возрастанию</a></li>
+                <li><a class="button sort-by-ascending selected-sorting" href="#">По возрастанию</a></li>
                 <li><a class="button sort-by-descending" href="#">По убыванию</a></li>
               </ul>
-            </p>
+            </div>
             <ul class="catalog-list">
               <li class="catalog-item">
                 <a href="#">
@@ -173,7 +175,7 @@
                   <span class="old-price" aria-label="Старая цена">
                     22500 Р.
                   </span>
-                  <a class="button" href="#" aria-label="Новая цена">
+                  <a class="price-button button" href="#" aria-label="Новая цена">
                     15500 Р.
                   </a>
                 </p>
@@ -191,7 +193,7 @@
                   <span class="old-price" aria-label="Старая цена">
                     30500 Р.
                   </span>
-                  <a class="button" href="#" aria-label="Новая цена">
+                  <a class="price-button button" href="#" aria-label="Новая цена">
                     25500 Р.
                   </a>
                 </p>
@@ -203,14 +205,14 @@
                   </h3>
                 </a>
                 <span class="new new-item" aria-label="Новый товар">new</span>
-                <p class="catalog-item-hover">
+                <div class="catalog-item-hover">
                   <ul>
-                    <li><a class="button" href="#">Купить</a></li>
-                    <li><button>В закладки</button></li>
+                    <li><a class="button buy-button" href="#">Купить</a></li>
+                    <li><button type="button" class="button to-bookmarks-button">В закладки</button></li>
                   </ul>
-                </p>
+                </div>
                 <p class="catalog-item-price">
-                  <a class="button" href="#" aria-label="Цена">
+                  <a class="price-button button" href="#" aria-label="Цена">
                     12500 Р.
                   </a>
                 </p>
@@ -228,7 +230,7 @@
                   <span class="old-price" aria-label="Старая цена">
                     22500 Р.
                   </span>
-                  <a class="button" href="#" aria-label="Новая цена">
+                  <a class="price-button button" href="#" aria-label="Новая цена">
                     15500 Р.
                   </a>
                 </p>
@@ -247,7 +249,7 @@
                   <span class="old-price" aria-label="Старая цена">
                     30500 Р.
                   </span>
-                  <a class="button" href="#" aria-label="Новая цена">
+                  <a class="price-button button" href="#" aria-label="Новая цена">
                     25500 Р.
                   </a>
                 </p>
@@ -262,7 +264,7 @@
                   </p>
                 </a>
                 <p class="catalog-item-price">
-                  <a class="button" href="#" aria-label="Цена">
+                  <a class="price-button button" href="#" aria-label="Цена">
                     12500 Р.
                   </a>
                 </p>
@@ -281,7 +283,7 @@
                   <span class="old-price" aria-label="Старая цена">
                     22500 Р.
                   </span>
-                  <a class="button" href="#" aria-label="Новая цена">
+                  <a class="price-button button" href="#" aria-label="Новая цена">
                     15500 Р.
                   </a>
                 </p>
@@ -299,7 +301,7 @@
                   <span class="old-price" aria-label="Старая цена">
                     30500 Р.
                   </span>
-                  <a class="button" href="#" aria-label="Новая цена">
+                  <a class="price-button button" href="#" aria-label="Новая цена">
                     25500 Р.
                   </a>
                 </p>
@@ -314,7 +316,7 @@
                   </p>
                 </a>
                 <p class="catalog-item-price">
-                  <a class="button" href="#" aria-label="Цена">
+                  <a class="price-button button" href="#" aria-label="Цена">
                     12500 Р.
                   </a>
                 </p>
@@ -332,7 +334,7 @@
       <section class="info">
         <div class="container">
           <h2>Пара слов о перфораторах</h2>
-          <p>
+          <p class="info-section-overview">
             Перфоратор - уникальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
             Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.
           </p>
@@ -342,7 +344,7 @@
     <footer class="main-footer">
       <section class="footer-menu">
         <div class="container">
-          <div class="footer-menu-content">
+          <div class="footer-menu-content footer-top-menu">
             <a class="main-footer-logo" href="index.html">Техномарт</a>
             <nav class="footer-service-navigation">
               <ul class="footer-navigation-list">
