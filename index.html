@@ -11,16 +11,16 @@
     <header class="main-header">
       <section class="main-header-top-menu">
         <div class="container">
-          <a class="main-header-logo" href="">Техномарт</a>
+          <a class="main-header-logo logo" href="">Техномарт</a>
           <form class="main-header-search" method="post" action="https://echo.htmlacademy.ru">
             <label>
               Поиск: <input type="text" name="search">
             </label>
             <button type="submit" class="visually-hidden">Искать</button>
           </form>
-          <a class="main-header-bookmarks button" href="bookmarks.html">Закладки: 0</a>
-          <a class="main-header-basket button" href="basket.html">Корзина: 0</a>
-          <a class="main-header-checkout button" href="checkout.html">Оформить заказ</a>
+          <a class="main-header-bookmarks main-header-top-menu-button button" href="bookmarks.html">Закладки: 0</a>
+          <a class="main-header-basket main-header-top-menu-button button" href="basket.html">Корзина: 0</a>
+          <a class="main-header-checkout main-header-top-menu-button button" href="checkout.html">Оформить заказ</a>
         </div>
       </section>
       <section class="menu">
@@ -36,8 +36,8 @@
               </p>
             </div>
             <div class="customer-menu">
-              <a class="main-header-login-button button" href="login.html">Войти</a>
-              <a class="main-header-registration-button button" href="signup.html">Регистрация</a>
+              <a class="main-header-login-button customer-button authorization-button button" href="login.html">Войти</a>
+              <a class="main-header-registration-button customer-button authorization-button button" href="signup.html">Регистрация</a>
             </div>
           </div>
           <nav class="main-navigation">
@@ -90,12 +90,12 @@
                 <li class="slider-item punchers-slider-item">
                   <h3>Перфораторы</h3>
                   <p>Настоящие мужские игрушки</p>
-                  <a class="slider-catalog-button button" href="punchers.html">Открыть каталог</a>
+                  <a class="slider-catalog-button main-content-button button" href="punchers.html">Открыть каталог</a>
                 </li>
                 <li class="slider-item drills-slider-item">
                   <h3>Дрели</h3>
                   <p>Соседям на радость!</p>
-                  <a class="slider-catalog-button button" href="drills.html">Открыть каталог</a>
+                  <a class="slider-catalog-button main-content-button button" href="drills.html">Открыть каталог</a>
                 </li>
               </ul>
               <button type="button" class="slider-button slider-button-prev button" aria-label="Назад"></button>
@@ -108,7 +108,7 @@
         <div class="container">
           <header class="section-header">
             <h2>Популярные товары:</h2>
-            <a class="section-header-button button" href="#">Все популярные товары</a>
+            <a class="section-header-button main-content-button button" href="#">Все популярные товары</a>
           </header>
           <ul class="popular-list">
             <li class="popular-item">
@@ -188,7 +188,7 @@
         <div class="container">
           <header class="section-header">
             <h2>Популярные производители:</h2>
-            <a class="section-header-button button" href="#">Все производители</a>
+            <a class="section-header-button main-content-button button" href="#">Все производители</a>
           </header>
           <ul class="brand-list">
             <li class="brand-item">
@@ -261,7 +261,7 @@
       <section class="services">
         <div class="container">
           <h2>Сервисы</h2>
-          <p class="services-section-overview">
+          <p class="services-section-overview overview">
             Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
           </p>
           <ul class="service-list">
@@ -270,7 +270,7 @@
               <p>
                 <button type="button" class="button service-button active-service-button">Доставка</button>
               </p>
-              <p class="service-item-overview">
+              <p class="service-item-overview overview">
                 Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!
               </p>
             </li>
@@ -279,7 +279,7 @@
               <p>
                 <button type="button" class="button service-button">Гарантия</button>
               </p>
-              <p class="service-item-overview">
+              <p class="service-item-overview overview">
                 Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.
                 Дом уж восстановите как-нибудь сами.
               </p>
@@ -289,10 +289,10 @@
               <p>
                 <button type="button" class="button service-button">Кредит</button>
               </p>
-              <p class="service-item-overview">
+              <p class="service-item-overview overview">
                 Залезть в долговую яму стало проще!
                 Кредитные консультанты придут вам на помощь.
-                <a href="#" class="button credit-button">Отправить заявку</a>
+                <a href="#" class="button credit-button main-content-button">Отправить заявку</a>
               </p>
             </li>
           </ul>
@@ -302,10 +302,10 @@
         <div class="container">
           <div class="about">
               <h2>Компания "Техномарт"</h2>
-              <p class="about-overview">
+              <p class="about-overview overview">
                 Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах
               </p>
-              <p class="delivery-information">
+              <p class="delivery-information overview">
                 Мы можем доставить вам товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:
                 <ul class="delivery-companies">
                   <li><a href="#">Деловые линии</a></li>
@@ -313,7 +313,7 @@
                   <li><a href="#">ЖелДорЭкспедиция</a></li>
                 </ul>
               </p>
-              <a class="button information-button about-company-button" href="#">Подробнее о компании</a>
+              <a class="button information-button main-content-button about-company-button" href="#">Подробнее о компании</a>
           </div>
           <div class="contacts">
               <h2>Контакты</h2>
@@ -323,7 +323,7 @@
                   <img src="img/map-min.jpg" width="300" height="158" alt="Карта">
                 </a>
               </p>
-              <button type="button" class="button information-button">Заблудились? Напишите нам!</button>
+              <button type="button" class="button information-button main-content-button">Заблудились? Напишите нам!</button>
           </div>
         </div>
       </section>
@@ -332,7 +332,7 @@
       <section class="footer-menu">
         <div class="container">
           <div class="footer-menu-content footer-top-menu">
-            <a class="main-footer-logo" href="index.html">Техномарт</a>
+            <a class="main-footer-logo logo" href="index.html">Техномарт</a>
             <nav class="footer-service-navigation">
               <ul class="footer-navigation-list">
                 <li><a href="about.html">Компания</a></li>
@@ -404,7 +404,7 @@
           </label>
         </p>
         <div class="modal-submit">
-          <button type="submit" class="modal-submit-button button">Отправить</button>
+          <button type="submit" class="modal-submit-button main-content-button button">Отправить</button>
         </div>
       </form>
       <button type="button" class="button modal-close-button modal-close-write-us">Закрыть</button>
