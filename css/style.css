@@ -786,7 +786,8 @@ a {
 .services-section-overview {
   width: 400px;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
+  margin: 40px 0;
 }
 
 .service-content {
@@ -806,8 +807,49 @@ a {
   justify-content: center;
 }
 
+.service-list {
+  padding: 40px 80px;
+
+  box-shadow: -10px 0 15px -12px #000000;
+}
+
 .service-item {
+  position: relative;
+
   color: #32425c;
+}
+
+.service-item-delivery::after {
+  position: absolute;
+  content: "";
+  width: 468px;
+  height: 261px;
+  background: url('../img/deliver-truck.png') no-repeat;
+
+  top: 0;
+  right: -320px;
+}
+
+.service-item-guarantee::after {
+  position: absolute;
+  content: "";
+  width: 389px;
+  height: 283px;
+  background: url('../img/guarantee-medal.png') no-repeat;
+
+  top: 0;
+  right: -320px;
+}
+
+.service-item-credit::after {
+  position: absolute;
+  content: "";
+  width: 465px;
+  height: 285px;
+  background: url('../img/credit-agreement.png') no-repeat;
+
+  top: 0;
+  right: -320px;
 }
 
 .service-item h3 {
@@ -816,8 +858,10 @@ a {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  margin-bottom: 35px;
 }
 .service-item-overview {
+  width: 300px;
   padding: 0;
   margin: 0;
 }
@@ -845,6 +889,9 @@ a {
 .information .container {
   flex-direction: row;
   justify-content: space-between;
+
+  padding-top: 75px;
+  /* padding-bottom: 85px; */
 }
 
 .about {
@@ -865,7 +912,15 @@ a {
   color: #000000;
 }
 
+.about .information-button {
+  width: 220px;
+}
+
 .contacts {
+  width: 300px;
+}
+
+.contacts .information-button {
   width: 300px;
 }
 
@@ -1055,8 +1110,15 @@ a {
   justify-content: space-between;
 }
 
+.main-footer-logo {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 17px 0;
+}
+
 .footer-navigation-list {
   display: flex;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -1074,8 +1136,24 @@ a {
   list-style: none;
 }
 
+.footer-top-menu {
+  align-items: center;
+}
+
+.footer-top-menu .footer-navigation-list {
+  width: 550px;
+}
+
+.footer-middle-menu .footer-navigation-list {
+  width: 525px;
+}
+
 .footer-top-menu a {
   color: #ffffff;
+}
+
+.footer-middle-menu {
+  align-items: baseline;
 }
 
 .footer-info {
