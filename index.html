@@ -13,8 +13,9 @@
         <div class="container">
           <a class="main-header-logo logo" href="">Техномарт</a>
           <form class="main-header-search" method="post" action="https://echo.htmlacademy.ru">
-            <label>
-              Поиск: <input type="text" name="search">
+            <input id="search-input" class="main-header-search-input-field" type="text" name="search">
+            <label for="search-input" class="main-header-top-menu-button">
+              Поиск:
             </label>
             <button type="submit" class="visually-hidden">Искать</button>
           </form>
@@ -216,22 +217,6 @@
               </p>
             </li>
             <li class="brand-item">
-              <h3 class="visually-hidden">Hitachi</h3>
-              <p class="brand-item-image">
-                <a href="#">
-                  <img src="img/Hitachi.png" width="169" height="31" alt="">
-                </a>
-              </p>
-            </li>
-            <li class="brand-item">
-              <h3 class="visually-hidden">LG</h3>
-              <p class="brand-item-image">
-                <a href="#">
-                  <img src="img/LG.png" width="121" height="73" alt="">
-                </a>
-              </p>
-            </li>
-            <li class="brand-item">
               <h3 class="visually-hidden">DeWALT</h3>
               <p class="brand-item-image">
                 <a href="#">
@@ -244,6 +229,22 @@
               <p class="brand-item-image">
                 <a href="#">
                   <img src="img/interskol.png" width="184" height="32" alt="">
+                </a>
+              </p>
+            </li>
+            <li class="brand-item">
+              <h3 class="visually-hidden">Hitachi</h3>
+              <p class="brand-item-image">
+                <a href="#">
+                  <img src="img/Hitachi.png" width="169" height="31" alt="">
+                </a>
+              </p>
+            </li>
+            <li class="brand-item">
+              <h3 class="visually-hidden">LG</h3>
+              <p class="brand-item-image">
+                <a href="#">
+                  <img src="img/LG.png" width="121" height="73" alt="">
                 </a>
               </p>
             </li>
@@ -323,9 +324,9 @@
           </div>
           <div class="contacts">
               <h2>Контакты</h2>
-              <p class="contacts-overview">
+              <p class="contacts-overview overview">
                 Вы можете забрать товар сами, заехав в наш офис:
-                <a href="#">
+                <a href="#" class="contacts-map">
                   <img src="img/map-min.jpg" width="300" height="158" alt="Карта">
                 </a>
               </p>
@@ -368,16 +369,14 @@
       <section class="footer-info">
         <div class="container">
           <p class="footer-copyright">
-            &copy;2010-2017 Компания "Техномарт"<br>
+            &copy; 2010-2017 Компания &laquo;Техномарт&raquo;<br>
             Все права защищены
           </p>
-          <div class="footer-social">
-            <ul>
-              <li><a class="social-button" href="#">Вконтакте</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-            </ul>
-          </div>
+          <ul class="footer-social">
+            <li><a class="social-button social-button-vk" href="#">Вконтакте</a></li>
+            <li><a class="social-button social-button-fb" href="#">Фейсбук</a></li>
+            <li><a class="social-button social-button-insta" href="#">Инстаграм</a></li>
+          </ul>
           <div class="footer-links">
             <p class="footer-feedback footer-link-item">
               <b>Обратная связь:</b>
