@@ -13,8 +13,9 @@
         <div class="container">
           <a class="main-header-logo logo" href="index.html">Техномарт</a>
           <form class="main-header-search" method="post" action="https://echo.htmlacademy.ru">
-            <label>
-              Поиск: <input type="text" name="search">
+            <input id="search-input" class="main-header-search-input-field" type="text" name="search">
+            <label for="search-input" class="main-header-top-menu-button">
+              Поиск:
             </label>
             <button type="submit" class="visually-hidden">Искать</button>
           </form>
@@ -393,13 +394,11 @@
             &copy; 2010-2017 Компания &laquo;Техномарт&raquo;<br>
             Все права защищены
           </p>
-          <div class="footer-social">
-            <ul>
-              <li><a class="social-button" href="#">Вконтакте</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-            </ul>
-          </div>
+          <ul class="footer-social">
+            <li><a class="social-button social-button-vk" href="#">Вконтакте</a></li>
+            <li><a class="social-button social-button-fb" href="#">Фейсбук</a></li>
+            <li><a class="social-button social-button-insta" href="#">Инстаграм</a></li>
+          </ul>
           <div class="footer-links">
             <p class="footer-feedback footer-link-item">
               <b>Обратная связь:</b>
