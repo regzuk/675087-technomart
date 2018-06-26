@@ -80,18 +80,23 @@
               <fieldset class="prices">
                 <legend class="prices-legend">Цена:</legend>
                 <div class="two-input-range">
-                  <button type="button" class="two-input-range min-range">Минимальное значение цены</button>
-                  <button type="button" class="two-input-range max-range">Максимальное значение цены</button>
+                  <div class="range-line">
+                    <div class="two-input-range-button button min-range">Минимальное значение цены</div>
+                    <div class="range-level"></div>
+                    <div class="two-input-range-button button max-range">Максимальное значение цены</div>
+                  </div>
                 </div>
-                <label>
-                  <span class="visually-hidden">Минимальная цена</span>
-                  <input type="number" name="min-price" placeholder="0">
-                </label>
-                <span>&#8212;</span>
-                <label>
-                  <span class="visually-hidden">Минимальная цена</span>
-                  <input type="number" name="max-price" placeholder="40000">
-                </label>
+                <div class="price-input">
+                  <label>
+                    <span class="visually-hidden">Минимальная цена</span>
+                    <input type="number" name="min-price" placeholder="0">
+                  </label>
+                  <span>&#8212;</span>
+                  <label>
+                    <span class="visually-hidden">Минимальная цена</span>
+                    <input type="number" name="max-price" placeholder="40000">
+                  </label>
+                </div>
               </fieldset>
               <fieldset class="producers">
                 <legend class="producers-legend">Производители:</legend>

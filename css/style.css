@@ -1248,7 +1248,17 @@ a {
   line-height: 30px;
 }
 
-.prices-legend {
+.catalog-filter .prices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.prices-legend,
+.producers-legend,
+.power-legend {
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px 0;
@@ -1258,6 +1268,67 @@ a {
 .prices input[type="number"] {
   background-color: #f7f3ec;
   border: none;
+  border-radius: 3px;
+}
+
+.two-input-range {
+  width: 220px;
+  height: 80px;
+}
+
+.range-line {
+  position: relative;
+  top: 39px;
+  left: 10px;
+  width: 200px;
+  height: 2px;
+  background-color: #d7dbdd;
+  z-index: 1;
+}
+
+.two-input-range-button {
+  position: absolute;
+  top: -9px;
+  font-size: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url('../img/filter-button.svg') no-repeat center center;
+  z-index: 3;
+}
+
+.min-range {
+  left: 0;
+}
+
+.max-range {
+  left: 140px;
+}
+
+.range-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 140px;
+  height: 2px;
+
+  background-color: #00ca74;
+  z-index: 2;
+}
+
+.price-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.price-input input {
+  width: 95px;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .producers-content,
@@ -1435,8 +1506,8 @@ a {
   margin: 0;
 }
 
-.main-footer a:hover,
-.main-footer a:focus {
+.main-footer a:not(.logo):hover,
+.main-footer a:not(.logo):focus {
   text-decoration: underline;
 }
 
