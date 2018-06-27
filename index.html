@@ -391,32 +391,36 @@
       </section>
     </footer>
     <section class="modal modal-write-us">
-      <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
-        <p>
-          <label>
-            Ваше имя:
-            <input type="text" name="name" placeholder="Имя Фамилия">
-          </label>
-          <label>
-            Ваш e-mail:
-            <input type="email" name="email" placeholder="email@example.com">
-          </label>
-        </p>
-        <p>
-          <label>
-            Текст письма:
-            <textarea name="text" cols="50" rows="10" placeholder="В свободной форме"></textarea>
-          </label>
-        </p>
-        <div class="modal-submit">
-          <button type="submit" class="modal-submit-button main-content-button button">Отправить</button>
-        </div>
-      </form>
-      <button type="button" class="button modal-close-button modal-close-write-us">Закрыть</button>
+      <div class="modal-content">
+        <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
+          <div class="personal-information">
+            <label>
+              Ваше имя:
+              <input type="text" name="name" placeholder="Имя Фамилия">
+            </label>
+            <label>
+              Ваш e-mail:
+              <input type="email" name="email" placeholder="email@example.com">
+            </label>
+          </div>
+          <div class="letter-text">
+            <label>
+              Текст письма:
+              <textarea name="text" cols="50" rows="10" placeholder="В свободной форме"></textarea>
+            </label>
+          </div>
+          <div class="modal-submit">
+            <button type="submit" class="modal-submit-button main-content-button button">Отправить</button>
+          </div>
+        </form>
+        <button class="button modal-close-button modal-close-write-us">Закрыть</button>
+      </div>
     </section>
-    <section class="modal modal-write-smap">
-      <img src="img/map.jpg" width="1200" height="779" alt="Карта">
-      <button type="button" class="button modal-close-button modal-close-map">Закрыть</button>
+    <section class="modal modal-map">
+      <div class="modal-content">
+        <img src="img/map.jpg" width="1200" height="779" alt="Карта">
+        <button type="button" class="button modal-close-button modal-close-map">Закрыть</button>
+      </div>
     </section>
   </body>
 </html>

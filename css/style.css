@@ -34,6 +34,7 @@ a {
 
   background-color: #293449;
   border: none;
+  cursor: pointer;
 }
 
 .container {
@@ -103,9 +104,10 @@ a {
   background-color: #293449;
   border: none;
   width: 0;
-  /* position: relative; */
+  padding-left: 45px;
 
-  margin-left: 45px;
+  font-size: 17px;
+  line-height: 18px;
 }
 
 .main-header-search label::before {
@@ -114,7 +116,7 @@ a {
   position: absolute;
 
   left: 0;
-  top: 0;
+  top: 1px;
 
   width: 45px;
   height: 42px;
@@ -129,13 +131,10 @@ a {
 
 .main-header-search-input-field:focus {
   background-color: #ffffff;
-  /* height: 42px; */
   flex-grow: 1;
-  /* outline: 0; */
 }
 
 .main-header-search-input-field:focus + label {
-  background-color: #ffffff;
   width: 0;
   font-size: 0;
   flex-grow: 0;
@@ -796,7 +795,7 @@ a {
 }
 
 .catalog-item:hover {
-  box-shadow: 0 5px 50px 0;
+  box-shadow: 0px 10px 25px 0px rgba(41, 51, 73, 0.5);
 }
 
 .buy-button,
@@ -974,11 +973,12 @@ a {
 }
 
 .brand-item:hover {
-  box-shadow: 0 5px 30px 0 #333333;
+  box-shadow: 0px 10px 25px 0px rgba(41, 51, 73, 0.5);
 }
 
 .brand-item:active {
   opacity: 0.35;
+  box-shadow: 0px 4px 25px 0px rgba(41, 51, 73, 0.5);
 }
 
 .services,
@@ -1292,7 +1292,7 @@ a {
   font-size: 0;
   display: block;
   width: 20px;
-  height: 20px;
+  height: 23px;
   background: url('../img/filter-button.svg') no-repeat center center;
   z-index: 3;
 }
@@ -1677,9 +1677,28 @@ a {
   background-color: #ee3643;
 }
 
+.modal {
+  width: 620px;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.75);
+  border-top: 7px solid #ff5257;
+
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.modal-content {
+  position: relative;
+}
+
 .write-us {
   font-size: 18px;
   line-height: 18px;
+}
+
+.write-us label {
+  display: flex;
+  flex-direction: column;
+  /* width: 220px; */
 }
 
 .write-us input,
@@ -1687,18 +1706,96 @@ a {
   border: 2px solid #dee3e4;
 
   font-size: 13px;
+  margin-top: 13px;
+  padding: 8px 14px;
 }
 
-.modal-submit {
+.write-us input {
+  width: 192px;
+}
+
+.personal-information,
+.letter-text {
+  width: 460px;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.personal-information {
+  padding-top: 48px;
+}
+
+.letter-text {
+  padding-top: 22px;
+  padding-bottom: 37px;
+}
+
+.letter-text textarea {
+  width: 428px;
+  resize: none;
+}
+
+.modal-submit,
+.modal-product {
+  width: 460px;
+  padding: 37px 80px;
   background-color: #f4f4f4;
 }
 
+.modal-submit button {
+  width: 100%;
+}
+
 .modal-close-button {
+  position: absolute;
+  top: 9px;
+  right: 9px;
   font-size: 0;
   width: 21px;
   height: 21px;
 
   background: url('../img/icon-close.svg') no-repeat;
+}
+
+.modal-map {
+  border: none;
+  width: 940px;
+  height: 447px;
+  overflow: hidden;
+
+  box-shadow: 0px 0px 14.72px 1.28px rgba(0, 0, 0, 0.5);
+}
+
+.modal-adding-product-text {
+  position: relative;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 66px 80px;
+  padding-left: 180px;
+}
+
+.modal-adding-product-text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 80px;
+  display: block;
+  width: 66px;
+  height: 66px;
+  background: url('../img/icon-mark.svg') no-repeat center center;
+}
+
+.modal-product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-product .button {
+  width: 220px;
 }
 
 /* * {
