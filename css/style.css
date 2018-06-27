@@ -152,7 +152,7 @@ a {
 }
 
 .main-header-top-menu-button {
-  padding: 12px 0;
+  padding: 13px 0;
   font-size: 17px;
   line-height: 18px;
   width: 150px;
@@ -1060,8 +1060,8 @@ a {
   height: 261px;
   background: url('../img/deliver-truck.png') no-repeat;
 
-  top: 0;
-  right: -320px;
+  top: -10px;
+  right: -330px;
 }
 
 .service-item-guarantee::after {
@@ -1082,8 +1082,8 @@ a {
   height: 285px;
   background: url('../img/credit-agreement.png') no-repeat;
 
-  top: 0;
-  right: -320px;
+  top: -20px;
+  right: -360px;
 }
 
 .service-item h3 {
@@ -1331,6 +1331,10 @@ a {
   padding: 10px 0;
 }
 
+.catalog-filter .producers {
+  border-bottom: 1px solid #e5e5e5;
+}
+
 .producers-content,
 .power-content {
   list-style: none;
@@ -1339,10 +1343,76 @@ a {
   line-height: 20px;
 }
 
+.filter-item  {
+  margin-bottom: 25px;
+  padding-left: 35px;
+}
+
+.filter-item label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.filter-item label::before {
+  content: "";
+  position: absolute;
+  display: block;
+  opacity: 0.8;
+}
+
+.producer-item label::before {
+  width: 27px;
+  height: 23px;
+
+  background: url('../img/checkbox-off.svg') no-repeat;
+
+  top: 50%;
+  transform: translateY(-50%);
+  left: -35px;
+}
+
+.filter-input-checkbox:checked + label::before {
+  background-image: url('../img/checkbox-on.svg');
+}
+
+.filter-item label:hover::before{
+  opacity: 1;
+}
+
+.catalog-filter .power {
+  margin-bottom: 50px;
+}
+
+.power-item label::before {
+  width: 25px;
+  height: 25px;
+
+  background: url('../img/radio-off.svg') no-repeat;
+
+  top: 50%;
+  transform: translateY(-50%);
+  left: -35px;
+}
+
+.filter-input-radio:checked + label::before {
+  background-image: url('../img/radio-on.svg');
+}
+
 .filter-button {
+  display: block;
+  width: 138px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 9px 0;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  text-transform: uppercase;
 
   background-color: #ffffff;
 }
