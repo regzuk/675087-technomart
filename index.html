@@ -13,8 +13,9 @@
         <div class="container">
           <a class="main-header-logo logo" href="">Техномарт</a>
           <form class="main-header-search" method="post" action="https://echo.htmlacademy.ru">
-            <label>
-              Поиск: <input type="text" name="search">
+            <input id="search-input" class="main-header-search-input-field" type="text" name="search">
+            <label for="search-input" class="main-header-top-menu-button">
+              Поиск:
             </label>
             <button type="submit" class="visually-hidden">Искать</button>
           </form>
@@ -56,7 +57,7 @@
     </header>
     <main class="main-content">
       <h1 class="visually-hidden">Магазин строительных материалов и инструментов для ремонта "Техномарт"</h1>
-      <section class="catalog">
+      <section class="catalog-overview">
         <div class="container">
           <h2 class="visually-hidden">Каталог</h2>
           <nav class="catalog-navigation">
@@ -111,16 +112,18 @@
             <a class="section-header-button main-content-button button" href="#">Все популярные товары</a>
           </header>
           <ul class="popular-list">
-            <li class="popular-item">
-              <a href="#">
-                <h3>
-                  Перфоратор BOSCH BFG 9000
-                </h3>
-                <p class="popular-item-image">
-                  <img src="img/p-1.jpg" width="218" height="150" alt="BOSCH BFG 9000">
-                </p>
-              </a>
-              <p class="popular-item-price">
+            <li class="catalog-item">
+              <h3>
+                Перфоратор BOSCH BFG 9000
+              </h3>
+              <ul class="catalog-item-hover">
+                  <li><a class="button buy-button" href="#">Купить</a></li>
+                  <li><button type="button" class="button to-bookmarks-button">В закладки</button></li>
+              </ul>
+              <p class="catalog-item-image">
+                <img src="img/p-1.jpg" width="218" height="150" alt="BOSCH BFG 9000">
+              </p>
+              <p class="catalog-item-price">
                 <span class="old-price" aria-label="Старая цена">
                   32500 Р.
                 </span>
@@ -129,16 +132,18 @@
                 </a>
               </p>
             </li>
-            <li class="popular-item">
-              <a href="#">
-                <h3>
-                  Перфоратор BOSCH BFG 3000
-                </h3>
-                <p class="popular-item-image">
-                  <img src="img/p-2.jpg" width="218" height="150" alt="BOSCH BFG 3000">
-                </p>
-              </a>
-              <p class="popular-item-price">
+            <li class="catalog-item">
+              <h3>
+                Перфоратор BOSCH BFG 3000
+              </h3>
+              <ul class="catalog-item-hover">
+                  <li><a class="button buy-button" href="#">Купить</a></li>
+                  <li><button type="button" class="button to-bookmarks-button">В закладки</button></li>
+              </ul>
+              <p class="catalog-item-image">
+                <img src="img/p-2.jpg" width="218" height="150" alt="BOSCH BFG 3000">
+              </p>
+              <p class="catalog-item-price">
                 <span class="old-price" aria-label="Старая цена">
                   22500 Р.
                 </span>
@@ -147,16 +152,18 @@
                 </a>
               </p>
             </li>
-            <li class="popular-item">
-              <a href="#">
-                <h3>
-                  Перфоратор BOSCH BFG 6000
-                </h3>
-                <p class="popular-item-image">
-                  <img src="img/p-3.jpg" width="218" height="150" alt="BOSCH BFG 6000">
-                </p>
-              </a>
-              <p class="popular-item-price">
+            <li class="catalog-item">
+              <h3>
+                Перфоратор BOSCH BFG 6000
+              </h3>
+              <ul class="catalog-item-hover">
+                  <li><a class="button buy-button" href="#">Купить</a></li>
+                  <li><button type="button" class="button to-bookmarks-button">В закладки</button></li>
+              </ul>
+              <p class="catalog-item-image">
+                <img src="img/p-3.jpg" width="218" height="150" alt="BOSCH BFG 6000">
+              </p>
+              <p class="catalog-item-price">
                 <span class="old-price" aria-label="Старая цена">
                   30500 Р.
                 </span>
@@ -165,19 +172,21 @@
                 </a>
               </p>
             </li>
-            <li class="popular-item">
-              <a href="#">
-                <h3>
-                  Перфоратор BOSCH BFG 2000
-                </h3>
-                <p class="popular-item-image">
-                  <img src="img/p-4.jpg" width="218" height="150" alt="BOSCH BFG 2000">
-                </p>
-              </a>
+            <li class="catalog-item">
+              <h3>
+                Перфоратор BOSCH BFG 2000
+              </h3>
               <span class="new new-item" aria-label="Новый товар">new</span>
-              <p class="popular-item-price">
-                <a class="price-button button" href="#" aria-label="Цена">
-                  12500 Р.
+              <ul class="catalog-item-hover">
+                  <li><a class="button buy-button" href="#">Купить</a></li>
+                  <li><button type="button" class="button to-bookmarks-button">В закладки</button></li>
+              </ul>
+              <p class="catalog-item-image">
+                <img src="img/p-4.jpg" width="218" height="150" alt="BOSCH BFG 2000">
+              </p>
+              <p class="catalog-item-price">
+                <a class="price-button button" href="#" aria-label="Новая цена">
+                  25500 Р.
                 </a>
               </p>
             </li>
@@ -208,22 +217,6 @@
               </p>
             </li>
             <li class="brand-item">
-              <h3 class="visually-hidden">Hitachi</h3>
-              <p class="brand-item-image">
-                <a href="#">
-                  <img src="img/Hitachi.png" width="169" height="31" alt="">
-                </a>
-              </p>
-            </li>
-            <li class="brand-item">
-              <h3 class="visually-hidden">LG</h3>
-              <p class="brand-item-image">
-                <a href="#">
-                  <img src="img/LG.png" width="121" height="73" alt="">
-                </a>
-              </p>
-            </li>
-            <li class="brand-item">
               <h3 class="visually-hidden">DeWALT</h3>
               <p class="brand-item-image">
                 <a href="#">
@@ -236,6 +229,22 @@
               <p class="brand-item-image">
                 <a href="#">
                   <img src="img/interskol.png" width="184" height="32" alt="">
+                </a>
+              </p>
+            </li>
+            <li class="brand-item">
+              <h3 class="visually-hidden">Hitachi</h3>
+              <p class="brand-item-image">
+                <a href="#">
+                  <img src="img/Hitachi.png" width="169" height="31" alt="">
+                </a>
+              </p>
+            </li>
+            <li class="brand-item">
+              <h3 class="visually-hidden">LG</h3>
+              <p class="brand-item-image">
+                <a href="#">
+                  <img src="img/LG.png" width="121" height="73" alt="">
                 </a>
               </p>
             </li>
@@ -271,20 +280,20 @@
               <li><button type="button" class="button service-button">Кредит</button></li>
             </ul>
             <ul class="service-list">
-              <li class="service-item">
+              <li class="service-item service-item-delivery visually-hidden">
                 <h3>Доставка</h3>
                 <p class="service-item-overview overview">
                   Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!
                 </p>
               </li>
-              <li class="service-item visually-hidden">
+              <li class="service-item service-item-guarantee visually-hidden">
                 <h3>Гарантия</h3>
                 <p class="service-item-overview overview">
                   Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.
                   Дом уж восстановите как-нибудь сами.
                 </p>
               </li>
-              <li class="service-item visually-hidden">
+              <li class="service-item service-item-credit">
                 <h3>Кредит</h3>
                 <p class="service-item-overview overview">
                   Залезть в долговую яму стало проще!
@@ -315,9 +324,9 @@
           </div>
           <div class="contacts">
               <h2>Контакты</h2>
-              <p class="contacts-overview">
+              <p class="contacts-overview overview">
                 Вы можете забрать товар сами, заехав в наш офис:
-                <a href="#">
+                <a href="#" class="contacts-map">
                   <img src="img/map-min.jpg" width="300" height="158" alt="Карта">
                 </a>
               </p>
@@ -360,16 +369,14 @@
       <section class="footer-info">
         <div class="container">
           <p class="footer-copyright">
-            Компания "Техномарт"<br>
+            &copy; 2010-2017 Компания &laquo;Техномарт&raquo;<br>
             Все права защищены
           </p>
-          <div class="footer-social">
-            <ul>
-              <li><a class="social-button" href="#">Вконтакте</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-            </ul>
-          </div>
+          <ul class="footer-social">
+            <li><a class="social-button social-button-vk" href="#">Вконтакте</a></li>
+            <li><a class="social-button social-button-fb" href="#">Фейсбук</a></li>
+            <li><a class="social-button social-button-insta" href="#">Инстаграм</a></li>
+          </ul>
           <div class="footer-links">
             <p class="footer-feedback footer-link-item">
               <b>Обратная связь:</b>
@@ -384,32 +391,36 @@
       </section>
     </footer>
     <section class="modal modal-write-us">
-      <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
-        <p>
-          <label>
-            Ваше имя:
-            <input type="text" name="name" placeholder="Имя Фамилия">
-          </label>
-          <label>
-            Ваш e-mail:
-            <input type="email" name="email" placeholder="email@example.com">
-          </label>
-        </p>
-        <p>
-          <label>
-            Текст письма:
-            <textarea name="text" cols="50" rows="10" placeholder="В свободной форме"></textarea>
-          </label>
-        </p>
-        <div class="modal-submit">
-          <button type="submit" class="modal-submit-button main-content-button button">Отправить</button>
-        </div>
-      </form>
-      <button type="button" class="button modal-close-button modal-close-write-us">Закрыть</button>
+      <div class="modal-content">
+        <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
+          <div class="personal-information">
+            <label>
+              Ваше имя:
+              <input type="text" name="name" placeholder="Имя Фамилия">
+            </label>
+            <label>
+              Ваш e-mail:
+              <input type="email" name="email" placeholder="email@example.com">
+            </label>
+          </div>
+          <div class="letter-text">
+            <label>
+              Текст письма:
+              <textarea name="text" cols="50" rows="10" placeholder="В свободной форме"></textarea>
+            </label>
+          </div>
+          <div class="modal-submit">
+            <button type="submit" class="modal-submit-button main-content-button button">Отправить</button>
+          </div>
+        </form>
+        <button class="button modal-close-button modal-close-write-us">Закрыть</button>
+      </div>
     </section>
-    <section class="modal modal-write-smap">
-      <img src="img/map.jpg" width="1200" height="779" alt="Карта">
-      <button type="button" class="button modal-close-button modal-close-map">Закрыть</button>
+    <section class="modal modal-map">
+      <div class="modal-content">
+        <img src="img/map.jpg" width="1200" height="779" alt="Карта">
+        <button type="button" class="button modal-close-button modal-close-map">Закрыть</button>
+      </div>
     </section>
   </body>
 </html>
