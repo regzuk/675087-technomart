@@ -222,8 +222,9 @@ a {
 .header-info {
   margin-top: 41px;
   margin-bottom: 41px;
+  padding-left: 53px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -233,8 +234,9 @@ a {
   line-height: 23px;
   color: #ee3643;
 
-  width: 200px;
+  width: 210px;
   padding: 0;
+  padding-top: 8px;
   margin: 0;
 }
 
@@ -402,9 +404,9 @@ a {
 
 .site-navigation-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
-  width: 100%;
+  /* width: 910px; */
   list-style: none;
   padding: 0;
   margin: 0;
@@ -413,6 +415,7 @@ a {
 
 .site-navigation-list li {
   flex-grow: 1;
+  /* width: 130px; */
 }
 
 .site-navigation-list a {
@@ -522,7 +525,7 @@ a {
   font-size: 24px;
   line-height: 30px;
   margin: 0;
-  padding: 22px 0;
+  padding-top: 22px;
 }
 
 .card {
@@ -534,12 +537,14 @@ a {
 }
 
 .card-button {
+  display: block;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 
   width: 135px;
-  padding: 12px 17px;
+  padding: 12px 0;
+  margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }
@@ -556,14 +561,8 @@ a {
 .card::after {
   content: "";
   position: absolute;
-  right: 10px;
   top: 50%;
   transform: translateY(-50%);
-
-  width: 100px;
-  height: 100px;
-
-
 }
 
 .materials-card {
@@ -572,6 +571,10 @@ a {
 
 .materials-card::after {
   background: url('../img/icon-1.svg') no-repeat center center;
+
+  right: 43px;
+  width: 44px;
+  height: 65px;
 }
 
 .tools-card {
@@ -580,6 +583,10 @@ a {
 
 .tools-card::after {
   background: url('../img/icon-2.svg') no-repeat center center;
+
+  right: 28px;
+  width: 75px;
+  height: 61px;
 }
 
 .technics-card {
@@ -588,6 +595,10 @@ a {
 
 .technics-card::after {
   background: url('../img/icon-3.svg') no-repeat center center;
+
+  right: 31px;
+  width: 79px;
+  height: 62px;
 }
 
 .sales-card {
@@ -596,6 +607,10 @@ a {
 
 .sales-card::after {
   background: url('../img/icon-4.svg') no-repeat center center;
+
+  right: 45px;
+  width: 59px;
+  height: 72px;
 }
 
 .delivery-card {
@@ -604,6 +619,10 @@ a {
 
 .delivery-card::after {
   background: url('../img/icon-5.svg') no-repeat center center;
+
+  right: 31px;
+  width: 78px;
+  height: 63px;
 }
 
 .slider-content {
@@ -627,13 +646,12 @@ a {
 .slider-content p {
   padding: 0;
   margin: 0;
-  margin-top: 10px;
 }
 
 .slider-item {
   width: 570px;
-  height: 216px;
-  padding: 25px;
+  height: 226px;
+  padding: 20px 25px;
 }
 
 .slider {
@@ -645,7 +663,7 @@ a {
 .slider-catalog-button {
   width: 195px;
 
-  margin-top: 100px;
+  margin-top: 125px;
 }
 
 .slider-button {
