@@ -722,7 +722,7 @@ a {
   align-items: center;
 
   margin: 20px 0;
-  padding: 0 24px;
+  padding: 6px 26px;
   background-color: #f9f5f0;
 }
 
@@ -764,6 +764,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 
   overflow: hidden;
@@ -863,14 +864,20 @@ a {
 
 .catalog-item h3 {
   color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+  width: 80%;
 
-  order: 2
+  order: 2;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-item-image {
   width: 218px;
   height: 150px;
-  margin: 9px 0;
+  margin: 0;
+  margin-bottom: 27px;
 
   order: 1;
 }
@@ -889,6 +896,9 @@ a {
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
 }
 
 .old-price {
@@ -900,11 +910,12 @@ a {
   position: relative;
   width: 80px;
   margin: 30px auto;
+  margin-left: 2px;
   margin-bottom: 20px;
-  padding: 10px 30px;
+  padding: 9px 30px;
   color: white;
   background: #ee3643;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .price-button::after {
@@ -914,7 +925,7 @@ a {
   right: -20px;
   width: 0;
   height: 0;
-  border: 20px solid white;
+  border: 19px solid white;
   border-left-color: #ee3643;
 }
 
@@ -967,6 +978,7 @@ a {
 
 .brands .container {
   flex-direction: column;
+  margin-bottom: 65px;
 }
 
 .brand-list {
@@ -1015,6 +1027,11 @@ a {
   padding-bottom: 70px;
 }
 
+.services .container {
+  overflow: hidden;
+  padding-bottom: 105px;
+}
+
 .services {
   background-color: #f4f7f9;
 }
@@ -1038,12 +1055,13 @@ a {
 .services-section-overview {
   width: 400px;
   padding: 0;
-  /* margin: 0; */
-  margin: 40px 0;
+  margin-top: 23px;
+  margin-bottom: 40px;
 }
 
 .service-content {
   display: flex;
+  align-items: center;
 }
 
 .service-buttons,
@@ -1054,13 +1072,14 @@ a {
 }
 
 .service-buttons {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .service-list {
-  padding: 40px 80px;
+  padding: 30px 80px;
 
   box-shadow: -10px 0 15px -12px #000000;
 }
@@ -1078,8 +1097,8 @@ a {
   height: 261px;
   background: url('../img/deliver-truck.png') no-repeat;
 
-  top: -10px;
-  right: -330px;
+  top: 24px;
+  right: -343px;
 }
 
 .service-item-guarantee::after {
@@ -1090,7 +1109,7 @@ a {
   background: url('../img/guarantee-medal.png') no-repeat;
 
   top: 0;
-  right: -320px;
+  right: -250px;
 }
 
 .service-item-credit::after {
@@ -1100,8 +1119,8 @@ a {
   height: 285px;
   background: url('../img/credit-agreement.png') no-repeat;
 
-  top: -20px;
-  right: -360px;
+  top: 0;
+  right: -330px;
 }
 
 .service-item h3 {
@@ -1110,25 +1129,37 @@ a {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .service-item-overview {
-  width: 300px;
+  width: 275px;
   padding: 0;
   margin: 0;
 }
 
+.service-item-guarantee .service-item-overview {
+  width: 375px;
+}
+
+.service-item-credit .service-item-overview {
+  width: 280px;
+}
+
+.credit-button {
+  margin-top: 30px;
+  width: 195px;
+}
+
 .service-button {
+  height: 60px;
   font-size: 21px;
   line-height: 30px;
   color: #ffffff;
 
   background-color: #32425c;
   width: 240px;
-}
-
-.service-button {
-  height: 61px;
+  padding-left: 20px;
+  text-align: left;
 }
 
 .service-button:not(.active-service-button):hover,
@@ -1146,17 +1177,23 @@ a {
   flex-direction: row;
   justify-content: space-between;
 
-  padding-top: 75px;
-  /* padding-bottom: 85px; */
+  padding-top: 76px;
 }
 
 .about {
   width: 540px;
 }
 
+.about-overview,
+.contacts-overview {
+  padding: 0;
+  margin: 0;
+  padding-top: 29px;
+}
+
 .delivery-information {
   width: 390px;
-  margin-top: 33px;
+  margin-top: 24px;
 }
 
 .delivery-companies {
@@ -1164,10 +1201,11 @@ a {
   padding: 0;
   padding-left: 40px;
   margin: 0;
+  margin-top: 22px;
 }
 
 .delivery-companies li:not(:first-child) {
-  margin-top: 27px;
+  margin-top: 16px;
 }
 
 .delivery-companies a {
@@ -1195,7 +1233,7 @@ a {
 
 .about .information-button {
   width: 220px;
-  margin-top: 42px;
+  margin-top: 30px;
 }
 
 .contacts {
@@ -1204,7 +1242,7 @@ a {
 
 .contacts-map {
   display: block;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .contacts .information-button {
@@ -1591,6 +1629,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0;
+  padding-top: 35px;
   margin: 0;
 }
 
@@ -1650,6 +1689,7 @@ a {
 .footer-social {
   padding: 0;
   margin: 0;
+  margin-left: 40px;
   display: flex;
   justify-content: space-between;
   width: 135px;
@@ -1657,7 +1697,7 @@ a {
 
 .footer-links {
   display: flex;
-  margin-right: 15px;
+  margin-right: 11px;
   width: 285px;
   justify-content: space-between;
 }
