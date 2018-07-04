@@ -342,9 +342,9 @@ a {
 
 .main-header-personal-button {
   position: relative;
-  width: 260px;
+  width: 235px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 45px;
 }
 
 .main-header-personal-button::before {
@@ -354,7 +354,7 @@ a {
   width: 20px;
   height: 18px;
 
-  left: 20px;
+  left: 13px;
 
   background: url('../img/icon-user.svg') no-repeat center center;
 }
@@ -366,7 +366,7 @@ a {
   width: 21px;
   height: 18px;
 
-  right: 21px;
+  right: 10px;
   top: 50%;
 
   transform: translateY(-50%);
@@ -375,6 +375,7 @@ a {
 }
 
 .personal-links {
+  margin-top: 5px;
   margin-right: 40px;
   position: relative;
 }
@@ -480,6 +481,7 @@ a {
   font-family: 'PT Sans', 'Arial', sans-serif;
   font-size: 13px;
   line-height: 18px;
+  text-transform: uppercase;
   color: #000000;
 }
 
