@@ -73,7 +73,9 @@ a {
   text-align: center;
 
   width: 220px;
-  padding: 9px 0;
+  text-align: center;
+  padding: 10px 0;
+  padding-bottom: 8px;
   background-color: #ee3643;
 
   box-shadow: 0 5px 0 0 #b52933;
@@ -157,6 +159,15 @@ a {
   width: 150px;
 }
 
+.main-header-basket {
+  width: 100px;
+  padding-left: 50px;
+}
+.main-header-bookmarks {
+  width: 110px;
+  padding-left: 40px;
+}
+
 .main-header-top-menu-button:active {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -164,6 +175,7 @@ a {
 .main-header-bookmarks,
 .main-header-basket {
   position: relative;
+  text-align: left;
 }
 
 .main-header-bookmarks::before,
@@ -171,7 +183,7 @@ a {
   content: "";
   position: absolute;
 
-  left: -10px;
+  left: 0;
   top: 0;
 
   width: 45px;
@@ -221,7 +233,7 @@ a {
 
 .header-info {
   margin-top: 41px;
-  margin-bottom: 41px;
+  margin-bottom: 37px;
   padding-left: 53px;
   display: flex;
   justify-content: space-between;
@@ -234,16 +246,21 @@ a {
   line-height: 23px;
   color: #ee3643;
 
-  width: 210px;
+  width: 190px;
   padding: 0;
   padding-top: 8px;
   margin: 0;
+}
+
+.header-description span {
+  white-space: nowrap;
 }
 
 .header-contacts {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 25px;
 }
 
 .header-phone-number {
@@ -254,8 +271,9 @@ a {
   text-align: center;
 
   width: 235px;
-  padding: 12px 0;
+  padding: 10px 0;
   padding-left: 29px;
+  margin-top: 4px;
   border: 3px solid #ffffff;
 }
 
@@ -279,6 +297,7 @@ a {
 
   padding: 0;
   margin: 0;
+  margin-top: 4px;
 }
 
 .customer-menu {
@@ -294,7 +313,8 @@ a {
   color: #000000;
 
   background-color: #ffffff;
-  padding: 15px 0;
+  padding: 12px 0;
+  margin-top: 5px;
 }
 
 .main-header-login-button {
@@ -406,16 +426,22 @@ a {
   display: flex;
   justify-content: center;
 
-  /* width: 910px; */
   list-style: none;
   padding: 0;
   margin: 0;
   background-color: #32425c;
 }
 
-.site-navigation-list li {
+.site-navigation-list .site-navigation-item {
   flex-grow: 1;
-  /* width: 130px; */
+}
+
+.site-navigation-item:first-child a {
+  padding-left: 23px;
+}
+
+.site-navigation-item:last-child a {
+  padding-right: 23px;
 }
 
 .site-navigation-list a {
@@ -525,15 +551,15 @@ a {
   font-size: 24px;
   line-height: 30px;
   margin: 0;
-  padding-top: 22px;
+  padding-top: 20px;
 }
 
 .card {
   position: relative;
   overflow: hidden;
-  width: 250px;
+  width: 254px;
   height: 123px;
-  padding: 0 25px;
+  padding: 0 23px;
 }
 
 .card-button {
@@ -650,8 +676,8 @@ a {
 
 .slider-item {
   width: 570px;
-  height: 226px;
-  padding: 20px 25px;
+  height: 216px;
+  padding: 25px 25px;
 }
 
 .slider {
@@ -663,7 +689,7 @@ a {
 .slider-catalog-button {
   width: 195px;
 
-  margin-top: 125px;
+  margin-top: 120px;
 }
 
 .slider-button {
@@ -682,7 +708,7 @@ a {
 }
 
 .slider-button-next {
-  right: 25px;
+  right: 20px;
   background: url('../img/icon-right.svg') no-repeat center center;
 }
 
@@ -731,6 +757,7 @@ a {
   line-height: 30px;
   color: #32425c;
   text-transform: uppercase;
+  letter-spacing: -0.9px;
 }
 
 .section-header-button {
@@ -1017,7 +1044,7 @@ a {
 }
 
 .information {
-  padding-bottom: 85px;
+  padding-bottom: 86px;
 }
 
 .services .container,
@@ -1044,6 +1071,7 @@ a {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  letter-spacing: -0.9px;
 }
 
 .overview {
@@ -1129,7 +1157,8 @@ a {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  letter-spacing: -0.9px;
 }
 .service-item-overview {
   width: 275px;
@@ -1151,7 +1180,7 @@ a {
 }
 
 .service-button {
-  height: 60px;
+  height: 61px;
   font-size: 21px;
   line-height: 30px;
   color: #ffffff;
@@ -1177,7 +1206,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
 
-  padding-top: 76px;
+  padding-top: 74px;
 }
 
 .about {
@@ -1188,7 +1217,7 @@ a {
 .contacts-overview {
   padding: 0;
   margin: 0;
-  padding-top: 29px;
+  padding-top: 28px;
 }
 
 .delivery-information {
@@ -1199,9 +1228,10 @@ a {
 .delivery-companies {
   list-style: none;
   padding: 0;
-  padding-left: 40px;
+  padding-left: 35px;
   margin: 0;
-  margin-top: 22px;
+  margin-top: 18px;
+  margin-bottom: 35px;
 }
 
 .delivery-companies li:not(:first-child) {
@@ -1210,6 +1240,7 @@ a {
 
 .delivery-companies a {
   position: relative;
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 19px;
   color: #000000;
@@ -1218,8 +1249,8 @@ a {
 .delivery-companies a::before {
   content: "";
   position: absolute;
-  left: -40px;
-  top: 9px;
+  left: -35px;
+  top: 10px;
   display: block;
   width: 25px;
   height: 2px;
@@ -1233,7 +1264,6 @@ a {
 
 .about .information-button {
   width: 220px;
-  margin-top: 30px;
 }
 
 .contacts {
@@ -1242,7 +1272,7 @@ a {
 
 .contacts-map {
   display: block;
-  margin: 30px 0;
+  margin: 30px 0 34px 0;
 }
 
 .contacts .information-button {
@@ -1670,6 +1700,12 @@ a {
   align-items: baseline;
 }
 
+.footer-contacts {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+}
+
 .footer-info {
   height: 107px;
   background-color: #293449;
@@ -1689,15 +1725,15 @@ a {
 .footer-social {
   padding: 0;
   margin: 0;
-  margin-left: 40px;
+  margin-left: 42px;
   display: flex;
   justify-content: space-between;
-  width: 135px;
+  width: 130px;
 }
 
 .footer-links {
   display: flex;
-  margin-right: 11px;
+  margin-right: 13px;
   width: 285px;
   justify-content: space-between;
 }
