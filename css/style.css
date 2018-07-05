@@ -370,6 +370,8 @@ a {
   right: 10px;
   top: 50%;
 
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 
   background: url('../img/icon-logout.svg') no-repeat center center;
@@ -513,6 +515,8 @@ a {
   position: absolute;
   right: -22px;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -595,6 +599,8 @@ a {
   content: "";
   position: absolute;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -702,6 +708,8 @@ a {
 .slider-button {
   position: absolute;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 
   height: 50px;
@@ -816,6 +824,8 @@ a {
   top: 44px;
   right: -25px;
   transform-origin: right top;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   width: 100px;
   color: #ffffff;
@@ -1434,7 +1444,9 @@ a {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .catalog-filter .producers {
@@ -1483,6 +1495,8 @@ input::-webkit-inner-spin-button {
   background: url('../img/checkbox-off.svg') no-repeat;
 
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: -35px;
 }
@@ -1506,6 +1520,8 @@ input::-webkit-inner-spin-button {
   background: url('../img/radio-off.svg') no-repeat;
 
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: -35px;
 }
@@ -1810,6 +1826,8 @@ input::-webkit-inner-spin-button {
   position: fixed;
   top: 40px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 620px;
   box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.75);
@@ -1915,6 +1933,8 @@ input::-webkit-inner-spin-button {
   content: "";
   position: absolute;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 80px;
   display: block;
