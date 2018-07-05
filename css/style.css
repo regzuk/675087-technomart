@@ -113,7 +113,7 @@ a {
 }
 
 .main-header-search label::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
 
@@ -180,7 +180,7 @@ a {
 
 .main-header-bookmarks::before,
 .main-header-basket::before {
-  content: "";
+  content: '';
   position: absolute;
 
   left: 0;
@@ -279,7 +279,7 @@ a {
 
 .header-phone-number::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 19px;
   height: 19px;
@@ -325,7 +325,7 @@ a {
 
 .main-header-login-button::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 20px;
   height: 17px;
@@ -350,7 +350,7 @@ a {
 
 .main-header-personal-button::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 20px;
   height: 18px;
@@ -363,7 +363,7 @@ a {
 
 .main-header-personal-button::after {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 21px;
   height: 18px;
@@ -394,7 +394,7 @@ a {
 }
 
 .personal-links::after {
-  content: "•";
+  content: '•';
   display: block;
   position: absolute;
   top: 5px;
@@ -508,7 +508,7 @@ a {
 }
 
 .breadcrumbs-list li:not(:last-child)::after {
-  content: "";
+  content: '';
   display: block;
   width: 8px;
   height: 12px;
@@ -597,7 +597,7 @@ a {
 }
 
 .card::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -964,7 +964,7 @@ a {
 }
 
 .price-button::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: -20px;
@@ -1142,7 +1142,7 @@ a {
 
 .service-item-delivery::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 468px;
   height: 261px;
   background: url('../img/deliver-truck.png') no-repeat;
@@ -1153,7 +1153,7 @@ a {
 
 .service-item-guarantee::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 389px;
   height: 283px;
   background: url('../img/guarantee-medal.png') no-repeat;
@@ -1164,7 +1164,7 @@ a {
 
 .service-item-credit::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 465px;
   height: 285px;
   background: url('../img/credit-agreement.png') no-repeat;
@@ -1269,7 +1269,7 @@ a {
 }
 
 .delivery-companies a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -35px;
   top: 10px;
@@ -1377,7 +1377,7 @@ a {
 }
 
 .two-input-range,
-.prices input[type="number"] {
+.prices input[type='number'] {
   background-color: #f7f3ec;
   border: none;
   border-radius: 3px;
@@ -1483,7 +1483,7 @@ input::-webkit-inner-spin-button {
 }
 
 .filter-item label::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   opacity: 0.8;
@@ -1931,7 +1931,7 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-adding-product-text::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
