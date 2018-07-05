@@ -829,6 +829,8 @@ a {
   transform: rotate(45deg);
   width: 100px;
   color: #ffffff;
+  font-size: 14px;
+  font-family: "Cuprum", "Arial", sans-serif;
 
   background-color: #ff5257;
   text-align: center;
