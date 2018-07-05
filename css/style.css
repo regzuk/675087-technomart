@@ -61,7 +61,7 @@ a {
 
 .main-header-top-menu .container {
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .logo {
@@ -133,6 +133,7 @@ a {
 .main-header-search-input-field:focus {
   background-color: #ffffff;
   flex-grow: 1;
+  align-self: stretch;
 }
 
 .main-header-search-input-field:focus + label {
