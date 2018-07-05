@@ -494,12 +494,11 @@ a {
 }
 
 .breadcrumbs-list li {
-  /* margin-right: 37px; */
   padding: 21px 0;
   position: relative;
 }
 
-.breadcrumbs-list li:first-child a {
+.breadcumb-index-link {
   display: block;
   width: 20px;
   height: 20px;
@@ -1299,11 +1298,6 @@ a {
 
 .contacts .information-button {
   width: 300px;
-  /* margin-top: 40px; */
-}
-
-.page-title .container {
-  /* background-color: #f2f6f8; */
 }
 
 .catalog {
@@ -1441,13 +1435,6 @@ a {
   width: 95px;
   text-align: center;
   padding: 10px 0;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .catalog-filter .producers {
@@ -1715,8 +1702,8 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.main-footer a:not(.logo):hover,
-.main-footer a:not(.logo):focus {
+.main-footer a:not(.logo):not(.footer-phone-number):hover,
+.main-footer a:not(.logo):not(.footer-phone-number):focus {
   text-decoration: underline;
 }
 
@@ -1756,6 +1743,12 @@ input::-webkit-inner-spin-button {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.7px;
+  width: 335px;
+}
+
+.footer-contacts .footer-phone-number {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .footer-info {
