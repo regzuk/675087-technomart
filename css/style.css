@@ -126,7 +126,6 @@ a {
   background-image: url('../img/icon-search.svg');
   background-position: center center;
   background-repeat: no-repeat;
-  filter: brightness(0) invert(1);
   opacity: 0.3;
 
 }
@@ -148,7 +147,7 @@ a {
 
 .main-header-search-input-field:focus + label::before {
   background-color: #ffffff;
-  filter: none;
+  background-image: url('../img/icon-search-red.svg');
   opacity: 1;
 }
 
@@ -333,6 +332,7 @@ a {
   left: 10px;
 
   background: url('../img/icon-login.svg') no-repeat center center;
+  opacity: 0.227;
 }
 
 .main-header-registration-button {
@@ -357,6 +357,7 @@ a {
   left: 13px;
 
   background: url('../img/icon-user.svg') no-repeat center center;
+  opacity: 0.227;
 }
 
 .main-header-personal-button::after {
@@ -372,6 +373,7 @@ a {
   transform: translateY(-50%);
 
   background: url('../img/icon-logout.svg') no-repeat center center;
+  opacity: 0.227;
 }
 
 .personal-links {
@@ -409,7 +411,7 @@ a {
 .main-header-personal-button:hover::after,
 .main-header-personal-button:focus::before,
 .main-header-personal-button:focus::after {
-  filter: brightness(0);
+  opacity: 1;
 }
 
 .customer-button:active,
@@ -420,7 +422,7 @@ a {
 .main-header-login-button:active::before,
 .main-header-personal-button:active::before,
 .main-header-personal-button:active::after {
-  filter: none;
+  opacity: 0.227;
 }
 
 .site-navigation-list {
@@ -1593,6 +1595,7 @@ input::-webkit-inner-spin-button {
 .sorting-by-type a:focus {
   color: #000000;
   text-decoration-style: solid;
+  border-bottom: 1px solid #ee3643;
 }
 
 .sorting-by-type .selected-sorting {
@@ -1611,7 +1614,6 @@ input::-webkit-inner-spin-button {
   width: 20px;
 	height: 20px;
 	background: url('../img/icon-up-dir.svg') no-repeat center center;
-  filter:brightness(0);
   opacity: 0.3;
 }
 
@@ -1619,7 +1621,6 @@ input::-webkit-inner-spin-button {
   width: 20px;
 	height: 20px;
 	background: url('../img/icon-down-dir.svg') no-repeat center center;
-  filter:brightness(0);
   opacity: 0.3;
 }
 
@@ -1633,12 +1634,12 @@ input::-webkit-inner-spin-button {
 
 .sort-by-ascending.selected-sorting {
   opacity: 1;
-  filter: none;
+  background-image: url('../img/icon-up-dir-red.svg');
 }
 
 .sort-by-descending.selected-sorting {
   opacity: 1;
-  filter: none;
+  background-image: url('../img/icon-down-dir-red.svg');
 }
 
 .catalog-sorting ul {
