@@ -727,6 +727,31 @@ a {
   background: url("../img/icon-right.svg") no-repeat center center;
 }
 
+.slider-circles {
+  position: absolute;
+  bottom: 36px;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 30px;
+
+}
+
+.slider-circle {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.active-circle {
+  background-color: #ee3643;
+}
+
 .punchers-slider-item {
   background: #32425c url("../img/puncher-slider.jpg") no-repeat;
 }
