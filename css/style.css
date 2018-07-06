@@ -967,12 +967,12 @@ a {
 .price-button::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: -1px;
   right: -20px;
   width: 0;
   height: 0;
-  border: 19px solid white;
-  border-left-color: #ee3643;
+  border: 20px solid white;
+  border-left-color: transparent;
 }
 
 .old-price + .price-button {
@@ -1373,7 +1373,7 @@ a {
 }
 
 .two-input-range,
-.prices input[type="number"] {
+.prices input {
   background-color: #f7f3ec;
   border: none;
   border-radius: 3px;
@@ -1479,10 +1479,10 @@ a {
 }
 
 .producer-item label::before {
-  width: 27px;
+  width: 23px;
   height: 23px;
 
-  background: url("../img/checkbox-off.svg") no-repeat;
+  background: url("../img/checkbox-off.svg") no-repeat left center;
 
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1492,6 +1492,7 @@ a {
 }
 
 .filter-input-checkbox:checked + label::before {
+  width: 27px;
   background-image: url("../img/checkbox-on.svg");
 }
 
