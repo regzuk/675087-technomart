@@ -896,15 +896,34 @@ a {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  width:129px;
-  padding: 7px 0;
+  padding: 10px 0;
+  border-radius: 3px;
 }
 
 .buy-button {
+  position: relative;
   color: #ffffff;
 
   background-color: #63a63e;
   margin-bottom:7px;
+  width: 130px;
+  padding-left: 5px;
+  box-shadow: inset 0 -3px 0 0 #367315;
+}
+
+.buy-button::before {
+  content: "";
+  position: absolute;
+
+  left: 14px;
+  top: 11px;
+
+  width: 15px;
+  height: 15px;
+  opacity: 0.3;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon-cart.svg");
 }
 
 .buy-button:hover,
@@ -912,8 +931,13 @@ a {
   background-color: #5fbb2d;
 }
 
+.buy-button:hover::before {
+  opacity: 1;
+}
+
 .buy-button:active {
   background-color: #518534;
+  box-shadow: none;
 }
 
 .to-bookmarks-button {
@@ -921,6 +945,9 @@ a {
 
   background-color: #ffffff;
   border: 3px solid #63a63e;
+  padding: 7px 0;
+  width: 131px;
+  padding-left: 4px;
 }
 
 .to-bookmarks-button:hover,
@@ -1231,12 +1258,17 @@ a {
   height: 60px;
   font-size: 21px;
   line-height: 30px;
+  font-weight: bold;
   color: #ffffff;
 
   background-color: #32425c;
   width: 240px;
   padding-left: 20px;
   text-align: left;
+}
+
+li:not(:last-child) > .service-button {
+  border-bottom: 1px solid #4d637b;
 }
 
 .service-button:not(.active-service-button):hover,
@@ -1972,4 +2004,9 @@ a {
 
 .modal-product .button {
   width: 220px;
+}
+
+.modal-continue-shoppnig-button {
+  color: #000000;
+  background-color: #ffffff;
 }
