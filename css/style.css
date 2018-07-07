@@ -952,7 +952,7 @@ a {
 
 .to-bookmarks-button:hover,
 .to-bookmarks-button:focus {
-  border-color:  #000000;
+  border-color:  #31425a;
 }
 
 .to-bookmarks-button:active {
@@ -1990,10 +1990,10 @@ li:not(:last-child) > .service-button {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  left: 80px;
+  left: 75px;
   display: block;
-  width: 66px;
-  height: 66px;
+  width: 75px;
+  height: 70px;
   background: url("../img/icon-mark.svg") no-repeat center center;
 }
 
