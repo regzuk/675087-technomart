@@ -109,14 +109,34 @@
     }
   });
 
+  var map = document.querySelector('.contacts-map');
+  var modalMap = document.querySelector('.modal-map');
+  var closeMap = modalMap.querySelector('.modal-close-map');
+
+  map.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    modalMap.classList.remove('visually-hidden');
+    modalMap.classList.add('modal-open');
+  });
+
+  closeMap.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    modalMap.classList.add('visually-hidden');
+    modalMap.classList.remove('modal-open');
+  });
+
   window.addEventListener("keydown", function (evt) {
-    if (evt.keyCode === 27) {
-      evt.preventDefault();
+    var closeModal = function (modal) {
       if (modal.classList.contains("modal-open")) {
         modal.classList.remove("modal-open");
         modal.classList.remove("modal-error");
         modal.classList.add('visually-hidden');
       }
+    }
+    if (evt.keyCode === 27) {
+      evt.preventDefault();
+      closeModal(modal);
+      closeModal(modalMap);
     }
   });
 })();

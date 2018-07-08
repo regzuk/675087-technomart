@@ -721,6 +721,9 @@ a {
   position: absolute;
   bottom: 36px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   width: 30px;
