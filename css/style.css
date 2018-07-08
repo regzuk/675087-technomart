@@ -1154,7 +1154,7 @@ a {
 
 .service-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .service-buttons,
