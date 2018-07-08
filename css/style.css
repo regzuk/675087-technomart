@@ -1120,7 +1120,7 @@ a {
 
 .services .container {
   overflow: hidden;
-  padding-bottom: 105px;
+  padding-bottom: 75px;
 }
 
 .services {
@@ -1176,6 +1176,8 @@ a {
 
 .service-list {
   padding: 30px 80px;
+
+  min-height: 180px;
 
   box-shadow: -10px 0 15px -12px #000000;
 }
@@ -1279,7 +1281,7 @@ li:not(:last-child) > .service-button {
   flex-direction: row;
   justify-content: space-between;
 
-  padding-top: 74px;
+  padding-top: 80px;
 }
 
 .about {
